@@ -62,7 +62,7 @@ static uint8_t i2c3_buf[32];
 
 extern "C" void app_main(void) {
   /* User Code Begin 2 */
-
+  
   /* User Code End 2 */
   STM32TimerTimebase timebase(&htim2);
   PlatformInit(2, 2048);
