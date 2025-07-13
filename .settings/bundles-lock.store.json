@@ -129,11 +129,11 @@
       "selected_by": [
         {
           "name": "st-arm-clang",
-          "version": ">=19.1.6+st.1 <19.1.6+st.99999"
+          "version": "19.1.6+st.8"
         },
         {
           "name": "st-arm-clang",
-          "version": "^19.1.6+st.8"
+          "version": ">=19.1.6+st.1 <19.1.6+st.99999"
         }
       ]
     },
@@ -144,11 +144,11 @@
       "selected_by": [
         {
           "name": "st-arm-clang",
-          "version": ">=19.1.6+st.1 <19.1.6+st.99999"
+          "version": "19.1.6+st.8"
         },
         {
           "name": "st-arm-clang",
-          "version": "^19.1.6+st.8"
+          "version": ">=19.1.6+st.1 <19.1.6+st.99999"
         }
       ]
     },
@@ -159,11 +159,11 @@
       "selected_by": [
         {
           "name": "st-arm-clang",
-          "version": ">=19.1.6+st.1 <19.1.6+st.99999"
+          "version": "19.1.6+st.8"
         },
         {
           "name": "st-arm-clang",
-          "version": "^19.1.6+st.8"
+          "version": ">=19.1.6+st.1 <19.1.6+st.99999"
         }
       ]
     },
@@ -174,11 +174,11 @@
       "selected_by": [
         {
           "name": "st-arm-clang",
-          "version": ">=19.1.6+st.1 <19.1.6+st.99999"
+          "version": "19.1.6+st.8"
         },
         {
           "name": "st-arm-clang",
-          "version": "^19.1.6+st.8"
+          "version": ">=19.1.6+st.1 <19.1.6+st.99999"
         }
       ]
     },
@@ -212,6 +212,39 @@
         {
           "name": "st-arm-clang-hybrid-19_1_6-description",
           "version": ">=0.0.1"
+        }
+      ]
+    },
+    {
+      "name": "st-arm-clangd",
+      "version": "19.1.2+st.3",
+      "platform": "darwin",
+      "selected_by": [
+        {
+          "name": "st-arm-clangd",
+          "version": "^19.1.2+st.3"
+        }
+      ]
+    },
+    {
+      "name": "st-arm-clangd",
+      "version": "19.1.2+st.3",
+      "platform": "x86_64-linux",
+      "selected_by": [
+        {
+          "name": "st-arm-clangd",
+          "version": "^19.1.2+st.3"
+        }
+      ]
+    },
+    {
+      "name": "st-arm-clangd",
+      "version": "19.1.2+st.3",
+      "platform": "x86_64-windows",
+      "selected_by": [
+        {
+          "name": "st-arm-clangd",
+          "version": "^19.1.2+st.3"
         }
       ]
     }

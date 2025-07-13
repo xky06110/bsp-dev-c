@@ -24,6 +24,7 @@
     "clangd.checkUpdates": false,
     "clangd.onConfigChanged": "restart",
     "clangd.arguments": [
+        "--query-driver=${env:CUBE_BUNDLE_PATH}/st-arm-clang/19.1.6+st.8/bin/starm-clang.exe,${env:CUBE_BUNDLE_PATH}/st-arm-clang/19.1.6+st.8/bin/starm-clang++.exe",
         "--background-index",
         "--clang-tidy",
         "--compile-commands-dir=${workspaceRoot}/build/Debug",
@@ -50,10 +51,5 @@
     ],
     "cmake.preferredGenerators": [
         "Ninja"
-    ],
-    "stm32cube-ide-clangd.path": "cube",
-    "stm32cube-ide-clangd.arguments": [
-        "starm-clangd",
-        "--query-driver=${env:CUBE_BUNDLE_PATH}/st-arm-clang/19.1.6+st.8/bin/starm-clang.exe"
     ],
 }
