@@ -7,4 +7,4 @@ modules:
   - xrobot-org/IST8310
   - qdu-future/CMD
   - qdu-future/DR16
-  - qdu-future/RMMotorContainer
+  - qdu-future/Motor
