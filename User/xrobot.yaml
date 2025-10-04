@@ -41,7 +41,9 @@ modules:
 - id: buzzer_alarm
   name: BuzzerAlarm
   constructor_args:
-    alarm_delay: 5000
+   alarm_freq: 1500
+   alarm_duration: 300
+   alarm_delay: 300
 - id: rmmotor_container
   name: RMMotorContainer
   constructor_args:
