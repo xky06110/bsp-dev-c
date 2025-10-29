@@ -51,10 +51,6 @@
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-/* LibXR UART IDLE callback (Auto-generated) */
-#ifdef HAL_UART_MODULE_ENABLED
-extern void STM32_UART_ISR_Handler_IDLE(UART_HandleTypeDef *huart);
-#endif
 
 /* USER CODE END 0 */
 
@@ -370,10 +366,6 @@ void SPI1_IRQHandler(void)
 void USART1_IRQHandler(void)
 {
   /* USER CODE BEGIN USART1_IRQn 0 */
-  /* LibXR UART IDLE callback (Auto-generated) */
-#ifdef HAL_UART_MODULE_ENABLED
-  STM32_UART_ISR_Handler_IDLE(&huart1);
-#endif
 
   /* USER CODE END USART1_IRQn 0 */
   HAL_UART_IRQHandler(&huart1);
@@ -388,10 +380,6 @@ void USART1_IRQHandler(void)
 void USART3_IRQHandler(void)
 {
   /* USER CODE BEGIN USART3_IRQn 0 */
-  /* LibXR UART IDLE callback (Auto-generated) */
-#ifdef HAL_UART_MODULE_ENABLED
-  STM32_UART_ISR_Handler_IDLE(&huart3);
-#endif
 
   /* USER CODE END USART3_IRQn 0 */
   HAL_UART_IRQHandler(&huart3);
@@ -560,10 +548,6 @@ void DMA2_Stream7_IRQHandler(void)
 void USART6_IRQHandler(void)
 {
   /* USER CODE BEGIN USART6_IRQn 0 */
-  /* LibXR UART IDLE callback (Auto-generated) */
-#ifdef HAL_UART_MODULE_ENABLED
-  STM32_UART_ISR_Handler_IDLE(&huart6);
-#endif
 
   /* USER CODE END USART6_IRQn 0 */
   HAL_UART_IRQHandler(&huart6);
