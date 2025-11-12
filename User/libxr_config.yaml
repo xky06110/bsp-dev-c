@@ -245,6 +245,7 @@ device_aliases:
   usb_otg_fs_cdc:
     type: UART
     aliases:
+    - usb_ai
     - usb_otg_fs_cdc
   usb_otg_hs_cdc:
     type: UART

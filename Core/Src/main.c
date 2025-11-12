@@ -1249,6 +1249,11 @@ void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+void vApplicationStackOverflowHook(TaskHandle_t xTask, char *pcTaskName) {
+  taskDISABLE_INTERRUPTS();
+  for (;;) {
+  }
+}
 
 /* USER CODE END 4 */
 

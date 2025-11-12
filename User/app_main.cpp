@@ -216,7 +216,7 @@ extern "C" void app_main(void) {
     LibXR::Entry<LibXR::CAN>({can2, {"can2"}}),
     LibXR::Entry<LibXR::RamFS>({ramfs, {"ramfs"}}),
     LibXR::Entry<LibXR::Terminal<32, 32, 5, 5>>({terminal, {"terminal"}}),
-    LibXR::Entry<LibXR::UART>({usb_otg_fs_cdc, {"usb_otg_fs_cdc"}}),
+    LibXR::Entry<LibXR::UART>({usb_otg_fs_cdc, {"usb_ai", "usb_otg_fs_cdc"}}),
     LibXR::Entry<LibXR::UART>({usb_otg_hs_cdc, {"usb_otg_hs_cdc"}}),
     LibXR::Entry<LibXR::GPIO>({CAMERA, {"CAMERA"}}),
     LibXR::Entry<LibXR::GPIO>({IMU_INT, {"IMU_INT"}})
