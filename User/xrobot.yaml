@@ -327,11 +327,12 @@ modules:
     motor_fric_0: '@motor_can2.GetMotor(3)'
     motor_fric_1: '@motor_can2.GetMotor(4)'
     motor_trig: '@motor_can2.GetMotor(2)'
-    num_trig_tooth: 0.0
-    trig_gear_ratio: 0.0
-    fric_radius: 0.0
-    default_bullet_speed: 0.0
-    min_launch_delay: 0.0
+    launcher_param:
+      min_launch_delay: 0.0
+      default_bullet_speed: 0.0
+      fric_radius: 0.0
+      trig_gear_ratio: 0.0
+      num_trig_tooth: 8
   template_args:
     MotorType: RMMotorContainer
 - id: EventBinder_0
