@@ -10,3 +10,4 @@ build/**
 DevC.jdebug.user
 .config.json
 User/xrobot_main.hpp
+User/xrobot.yaml
