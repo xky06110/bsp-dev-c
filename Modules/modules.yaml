@@ -18,3 +18,4 @@ modules:
   - qdu-future/HostData
   - qdu-future/AtomImuCan
   - qdu-future/LegVmc
+  - qdu-future/Matrix
